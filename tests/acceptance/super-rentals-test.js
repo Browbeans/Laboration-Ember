@@ -34,7 +34,7 @@ module('Acceptance | super rentals', function(hooks) {
   });
   
   test('visiting /getting-in-touch', async function (assert) {
-    await visit('/getting-in-touch'); 
+    await visit('getting-in-touch'); 
     
     assert.equal(currentURL(), 'getting-in-touch'); 
     assert.dom('nav').exist();
@@ -51,9 +51,9 @@ module('Acceptance | super rentals', function(hooks) {
     await visit('/');
 
     assert.dom('nav').exists();
-    assert.dom('nav a.menu-index').hasText('SuperRentals');
-    assert.dom('nav a.menu-about').hasText('About');
-    assert.dom('nav a.menu-contact').hasText('Contact');
+    assert.dom('nav a.menu-index').hasText('Vara Turistbyrå');
+    assert.dom('nav a.menu-about').hasText('Om oss');
+    assert.dom('nav a.menu-contact').hasText('Kontakt');
 
     await click('nav a.menu-about');
     assert.equal(currentURL(), '/about');
