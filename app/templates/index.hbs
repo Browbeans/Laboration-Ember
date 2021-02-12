@@ -2,13 +2,14 @@
     <h2>Välkommen till Vara</h2>
     <p>Hoppas du hittar allt du söker här</p>
     <LinkTo @route="about" class="button">Om oss</LinkTo>
-    <LinkTo @route="contact" class="button">Kontakta Oss</LinkTo>   
+    <LinkTo @route="contact" class="button">Kontakta Oss</LinkTo>  
+    <LinkTo @route="gallery" class="button">Galleri</LinkTo> 
 </Jumbo>
 
 <div class="rentals">
     <ul class="results">
-        <li><Activities></Activities></li>
-        <li><Activities></Activities></li>
-        <li><Activities></Activities></li>
+        <li><Activities @rental={{@model}}/></li>
+        <li><Varabadet /></li>
+        <li><Concert /></li>
     </ul>
 </div>

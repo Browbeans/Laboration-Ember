@@ -1,21 +1,29 @@
 <article class="rental">
     <ActivityImage
-        src="https://www.noje.se/uploads/articles/690cb5ac46925dce334afb2d0a5abea5.jpg"
-        alt="En bild på varabadet från rutschkanorna"
+        src={{@rental.image}}
+        alt="A picture of {{@rental.title}}"
     />
     <div class="details">
-        <h3>Varabadet</h3>
+        <h3>{{@rental.title}}</h3>
         <div class="detail owner">
-            <span>Pris:</span>Bad och lek för 20 spänn!
+            <span>Pris:</span> {{@rental.price}}
         </div>
         <div class="detail type">
-            <span>Temperatur:</span>Alltid 24°C
+            <span>Allmänt:</span> {{@rental.general}}
         </div>
         <div class="detail location">
-            <span>Address:</span>Johan brinksgata 21
+            <span>Address:</span> {{@rental.address}}
         </div>
         <div class="detail bedrooms">
-            <span>Kiosk:</span>God mat och knapriga snacks
+            <span>Kiosk:</span> {{@rental.store}}
         </div>
     </div>
+   <Map
+    @lat={{@rental.location.lat}}
+    @lng={{@rental.location.lng}}
+    @zoom="15"
+    @width="150"
+    @height="150"
+    alt="A map of the dream-city Vara"
+    />  
 </article>

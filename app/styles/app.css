@@ -81,7 +81,7 @@ p {
   height: 4em;
   background-color: #677ae4;
   background-color: #05526A;
-  background-color: #e46855;
+  background-color: black;
 }
 
 .menu h1 {
@@ -448,7 +448,7 @@ p {
 }
 
 .tomster {
-  background: url(../assets/images/teaching-tomster.png);
+  background: url(../assets/images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 200px;
@@ -465,3 +465,4 @@ p {
   height: 1px; width: 1px;
   margin: -1px; padding: 0; border: 0;
 }
+
