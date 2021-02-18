@@ -1,0 +1,19 @@
+
+{{#if this.isImgBig}}
+  <div class="div-large">
+        <img 
+                class="image-l" 
+                {{on "click" this.toggleSize}}
+                ...attributes
+        >
+  </div>
+  <div class="img-container"></div>
+{{else}}
+  <div class="img-container">
+        <img 
+                class="image-small" 
+                {{on "click" this.toggleSize}}
+                ...attributes
+        >
+  </div>
+{{/if}}
