@@ -491,6 +491,10 @@ p {
   margin: 1rem;
 }
 
+.image-small:hover {
+  cursor: pointer;
+}
+
 .div-large {
   position: fixed;
   width: 100%;
@@ -510,3 +514,6 @@ p {
   transform: translate(-50%, -50%);
 }
 
+.image-l:hover {
+  cursor: pointer;
+}
