@@ -1,11 +1,9 @@
-# super-rentals
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# App
+Detta är readMe-filen för detta projekt, projektet är en webApplikation skriven i ramverket Ember
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+Dessa programvaror behöver du ha installerat på din dator för att köra programmet.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
@@ -14,15 +12,18 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd super-rentals`
+* `git clone <repository-url>` detta repositoriet
+* `cd app`
 * `npm install`
 
-## Running / Development
+## Köra / utveckla
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+
+
+### Nedan finns kommandon som du ej behöver använda i nuläget. 
 
 ### Code Generators
 
