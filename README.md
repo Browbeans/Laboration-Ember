@@ -12,7 +12,7 @@ Dessa programvaror behöver du ha installerat på din dator för att köra progr
 
 ## Installation
 
-* `git clone <repository-url>` detta repositoriet
+* `git clone <repository-url>` detta repositoriet https://github.com/Browbeans/Laboration-Ember.git
 * `cd app`
 * `npm install`
 
