@@ -1,5 +1,6 @@
 # App
-Detta är readMe-filen för detta projekt, projektet är en webApplikation skriven i ramverket Ember
+Detta är readMe-filen för detta projekt, projektet är en webApplikation skriven i ramverket Ember. 
+Acceptanstesterna för detta projekt används ej. 
 
 ## Prerequisites
 
