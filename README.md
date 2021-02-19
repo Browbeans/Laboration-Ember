@@ -15,6 +15,7 @@ Dessa programvaror behöver du ha installerat på din dator för att köra progr
 
 * `git clone <repository-url>` detta repositoriet https://github.com/Browbeans/Laboration-Ember.git
 * `cd app`
+* `(eller) super-rentals`
 * `npm install`
 
 ## Köra / utveckla
